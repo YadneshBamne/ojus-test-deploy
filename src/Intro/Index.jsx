@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './index.css'; // Add your styles in this file
-
+import { Link } from "react-router-dom";
 // LocomotiveScroll and GSAP are external libraries, you can include them in your project as dependencies
 import LocomotiveScroll from 'locomotive-scroll';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
@@ -79,15 +79,15 @@ const Index = () => {
 
   return (
     <div id="main" ref={scrollContainerRef}>
-      <div id="nav">
+      <div id="nav1">
         <img src={OjusLogo} width="90" height="90" alt="" />
         <button className="button">
           <div className="dots_border" />
-          <span className="text_button">Cultural</span>
+          <Link to='/council'><span className="text_button">Cultural</span></Link>
         </button>
         <button className="button">
           <div className="dots_border" />
-          <span className="text_button">Heads</span>
+          <Link to='/heads'><span className="text_button">Heads</span></Link>
         </button>
       </div>
 
