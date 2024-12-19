@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "./Gallery.css"; // Import the CSS
 import image1 from "../assets/image1copy.jpg";
-import image2 from "../assets/image1copy.jpg";
+import image2 from "../assets/image4copy.jpg";
 import image3 from "../assets/image3copy.jpg";
 import image4 from "../assets/image4copy.jpg";
 
